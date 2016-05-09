@@ -1,0 +1,148 @@
+/* Base Application Styles */
+
+body {
+  margin: 0;
+  color: #020;
+  background: #FEFBFA;
+  width: 100%;
+  min-height: 100%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.about-title-image {
+  min-height: 75px;
+  background-image: url('../images/about-bg.jpg');
+  background-position: 25% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.avatar-image {
+  height: 175px;
+  width: 175px;
+  text-align: center;
+  background-image: url('../images/me.jpg');
+  background-position: 0 40%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}
+
+.portfolio-max-width {
+    max-width: 900px;
+    margin: auto;
+}
+
+.portfolio-header {
+  position: relative;
+  background-image: url('../images/header-img.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.portfolio-logo-row {
+  min-height: 200px;
+}
+
+.portfolio-header .mdl-layout__header-row {
+  padding: 0;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.portfolio-navigation-row {
+  background-color: rgba(0, 0, 0, 0.6);
+  text-transform: uppercase;
+  height: 45px;
+  text-align: center;
+  width: 100%;
+}
+
+.portfolio-copy {
+  max-width: 700px;
+}
+
+.action-button {
+  border: 2px solid black;
+  border-radius: 5px;
+  min-width: 75px;
+  max-width: 75px;
+  width: 100%;
+}
+
+.lead-contact-container {
+  text-align: right;
+}
+
+.lead-header-title {
+  min-height: 60px;
+}
+
+.lead-img {
+  background-position: 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.mdl-card__actions {
+  text-align: center;
+}
+
+.content-center {
+  text-align: center;
+}
+
+.devicons {
+  font-size: 1.2em;
+  margin-left: 0.2em;
+}
+
+.linkedin-brand-icon,
+.github-brand-icon {
+  margin-right: 1em;
+}
+
+.linkedin-brand-icon img,
+.github-brand-icon img{
+  max-height: 40px;
+  max-width: 40px;
+}
+
+.mdl-cell--6-col,
+.mdl-cell--6-col-tablet.mdl-cell--6-col-tablet {
+  flex-grow: 1;
+}
+
+
+@media (max-width: 839px) {
+  .lead-buttons.mdl-grid {
+    display: table;
+  }
+
+  .lead-buttons.mdl-grid > div{
+    margin-bottom: 1em;
+  }
+
+  .lead-contact-container,
+  .content-center {
+    text-align: left;
+  }
+
+  .content-center {
+    display: flex;
+  }
+
+  .about-personal.mdl-cell--4-col {
+    width: 100%;
+  }
+
+  .avatar-image {
+    margin: auto;
+  }
+}

@@ -1,0 +1,38 @@
+[{
+		"id": 1,
+		"title": "Inspire",
+		"description": "Inspirational quote app made with Angular, Meteor, MongoDB and Angular-Material.",
+		"url": "https://inspire-2016-jdbtoes-1.c9users.io/quotes",
+		"img_src": "images/inspire.png",
+		"img_src_lead": "images/inspire-lead.png",
+		"tags": ["Angular", "Meteor", "MongoDB", "Angular-Material"],
+		"lead": true
+	}, {
+		"id": 2,
+		"title": "Awesome Books",
+		"description": "Upload and rate your favourite books. Built with React, Firebase and Bootstrap.",
+		"url": "http://heliumdragon.com/reactBooks/",
+		"img_src": "images/awesome-books.png",
+		"img_src_lead": "images/awesome-books-lead.png",
+		"tags": ["React", "Firebase", "Bootstrap"],
+		"lead": false
+	}, {
+		"id": 3,
+		"title": "Films showcase",
+		"description": "Uses the Rotten Tomatoes API. Made with Backbone and Bootstrap.",
+		"url": "http://www.jay-davis.co.uk/films/",
+		"img_src": "images/films-showcase.png",
+		"img_src_lead": "images/films-showcase-lead.png",
+		"tags": ["Backbone", "Bootstrap"],
+		"lead": false
+	}, {
+		"id": 4,
+		"title": "Icons pair game",
+		"description": "A pair matching game made with Angular and Bootstrap.",
+		"url": "http://heliumdragon.com/hddemo/#/pairs",
+		"img_src": "images/icon-pairs.png",
+		"img_src_lead": "images/icon-pairs-lead.png",
+		"tags": ["Angular"],
+		"lead": false
+	}
+]
