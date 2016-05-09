@@ -21,6 +21,16 @@ img {
   background-repeat: no-repeat;
 }
 
+.about-skills{
+  padding: 0;
+}
+
+.about-skills li {
+  display: inline-block;
+  list-style: none;
+  font-size: 1.25em;
+}
+
 .avatar-image {
   height: 175px;
   width: 175px;
