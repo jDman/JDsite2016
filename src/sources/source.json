@@ -2,7 +2,7 @@
 		"id": 1,
 		"title": "Inspire",
 		"description": "Inspirational quote app made with Angular, Meteor, MongoDB and Angular-Material.",
-		"url": "https://inspire-2016-jdbtoes-1.c9users.io/quotes",
+		"url": "http://inspire.meteorapp.com/quotes",
 		"img_src": "images/inspire.png",
 		"img_src_lead": "images/inspire-lead.png",
 		"tags": ["Angular", "Meteor", "MongoDB", "Angular-Material"],
